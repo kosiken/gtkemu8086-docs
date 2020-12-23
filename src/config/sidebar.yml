@@ -1,0 +1,16 @@
+# Sidebar navigation
+
+- label: 'Introduction'
+  link: '/'
+- label: 'Installation'
+  link: '/installation'
+- label: 'Whats New'
+  link: '/whats-new'
+- label: 'Features'
+  items:
+    - label: 'Syntax Highlighting'
+      link: '/features/syntax-highlighting'
+    - label: 'Step'
+      link: '/features/step'
+    - label: 'Examples'
+      link: '/features/example'
