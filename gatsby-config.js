@@ -1,8 +1,8 @@
 module.exports = {
   // pathPrefix: '/gtkemu8086',
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
+    siteTitle: `emu8086 Docs`,
+    defaultTitle: `emu8086 Docs`,
     siteTitleShort: `Rocket Docs`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
     siteUrl: `https://rocketdocs.netlify.com`,
@@ -19,8 +19,8 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
+        githubUrl: `https://github.com/kosiken/gtkemu8086-docss`,
+        baseDir: `gtkemu8086-docs`,
       },
     },
     {
