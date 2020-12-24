@@ -17,4 +17,4 @@
 - label: 'Contributing'
   items:
     - label: 'Project Structure'
-    - link: '/contributing/project-structure'
+      link: '/contributing/project-structure'
