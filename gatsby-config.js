@@ -1,5 +1,5 @@
 module.exports = {
-  // pathPrefix: '/gtkemu8086',
+   pathPrefix: '/gtkemu8086',
   siteMetadata: {
     siteTitle: `emu8086 Docs`,
     defaultTitle: `emu8086 Docs`,
