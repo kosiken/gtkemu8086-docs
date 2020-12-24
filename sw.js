@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-0da7dd18b440dab0dc23.js"
+    "url": "webpack-runtime-4bcc248e9126f7acc0ac.js"
   },
   {
     "url": "framework-1bcdbcdd30f43763a25c.js"
@@ -36,11 +36,11 @@ self.__precacheManifest = [
     "url": "f0e45107-02a22ac72de90821f3f0.js"
   },
   {
-    "url": "app-58ec054713edb43a23db.js"
+    "url": "app-1669e4b65ad9ed8fa8b0.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b80072e0116bc7629f73561db7782279"
+    "revision": "aecbae0df4bbe411809f841906eae486"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-241020a1cf7d0f317bbe.js"
@@ -51,14 +51,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "51004e1003ec29466bf17cd1dda35cc4"
+    "revision": "91afebd1b7cd6b5eb4a1a54ee389fca8"
   },
   {
     "url": "polyfill-dfda8d059abd9d0298c4.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "d505a981f97f6448ddde3c59a1daf8b0"
+    "revision": "323c7d9f619bea7f6ae4376d829a3580"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -145,12 +145,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/gtkemu8086`), ``)
+  pathname = pathname.replace(new RegExp(`^/gtkemu8086-docs`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/gtkemu8086/app-58ec054713edb43a23db.js`))) {
+  if (!resources || !(await caches.match(`/gtkemu8086-docs/app-1669e4b65ad9ed8fa8b0.js`))) {
     return await fetch(event.request)
   }
 
@@ -163,7 +163,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/gtkemu8086/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/gtkemu8086-docs/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
