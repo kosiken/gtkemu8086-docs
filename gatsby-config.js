@@ -31,7 +31,7 @@ module.exports = {
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
-        icon: `static/favicon.png`,
+        icon: `static/android-chrome-192x192.png`,
       },
     },
     `gatsby-plugin-sitemap`,
