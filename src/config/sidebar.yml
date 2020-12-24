@@ -14,3 +14,7 @@
       link: '/features/step'
     - label: 'Examples'
       link: '/features/example'
+- label: 'Contributing'
+  items:
+    - label: 'Project Structure'
+    - link: '/contributing/project-structure'
