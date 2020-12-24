@@ -11,7 +11,7 @@ module.exports = {
     siteLanguage: `en`,
     themeColor: `#8257E6`,
     basePath: `/`,
-    baseDir: 'gtkemu8086-docs',
+    
   },
   plugins: [
     {
@@ -19,8 +19,8 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/kosiken/gtkemu8086-docss`,
-        baseDir: `gtkemu8086-docs`,
+        githubUrl: `https://github.com/kosiken/gtkemu8086-docs`,
+
       },
     },
     {
