@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: `emu8086 Docs`,
     defaultTitle: `emu8086 Docs`,
-    siteTitleShort: `Rocket Docs`,
+    siteTitleShort: `emu8086 Docs`,
     siteDescription: `An 8086 emulator`,
     siteUrl: `https://kosiken.github.io/gtkemu8086-docs`,
     siteAuthor: `Allison Kosy`,
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Emu8086 Docs`,
+        short_name: `Emu8086 Docs`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://kosiken.github.io/gtkemu8086-docs`,
       },
     },
     `gatsby-plugin-offline`,
