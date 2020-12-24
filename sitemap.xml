@@ -5,6 +5,7 @@
 <url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/faq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/installation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/whats-new</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/contributing/project-structure</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/features/example</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/features/step</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://rocketdocs.netlify.com/gtkemu8086-docs/features/syntax-highlighting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
