@@ -18,3 +18,5 @@
   items:
     - label: 'Project Structure'
       link: '/contributing/project-structure'
+    - label: 'Supported Operations'
+      link: '/contributing/operations'

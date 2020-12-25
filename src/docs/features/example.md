@@ -2,6 +2,21 @@
 title: Examples
 description: emu8086 emulator examples
 ---
+This applications comes prebuilt with some examples which you can run, to add an example 
+open a [pull request](https://github.com/kosiken/gtkemu8086) and ensure you conform to these requirements
+
+- The example must contain at least one line of useful code 
+    - Things like this are not valid
+
+    ```asm
+    ; ------- start
+        label: equ 50
+    ```
+
+- The example must not contain **MASM** syntax as it is not supported
+- It must not conatin operations that are not yet [implemented](/contributing/operations#Implemented) 
+
+> Checkout the example below
 
 ## ArraySum
 
