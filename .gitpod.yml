@@ -1,7 +1,10 @@
 tasks:
   - init: yarn install && yarn run build
     command: yarn run start
+<<<<<<< HEAD
 
 vscode:
   extensions:
     - silvenon.mdx@0.1.0:idr5lE5Ox6n8IrXKo2/3OA==
+=======
+>>>>>>> e103699dd34b0518e6453ce0ffbc1b6308edf3f6
