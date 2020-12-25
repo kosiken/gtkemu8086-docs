@@ -14,6 +14,7 @@ module.exports = {
     
   },
   plugins: [
+      `gatsby-plugin-sass`,
     {
       resolve: `@rocketseat/gatsby-theme-docs`,
       options: {
