@@ -3,4 +3,4 @@
 
 
 
-The source files for the documentation of my gtkemu8086 repo :wave
+The source files for the documentation of my gtkemu8086 repo
