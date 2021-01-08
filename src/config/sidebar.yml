@@ -10,8 +10,8 @@
   items:
     - label: 'Syntax Highlighting'
       link: '/features/syntax-highlighting'
-    - label: 'Step'
-      link: '/features/step'
+    - label: 'Editor Features'
+      link: '/features/editor'
     - label: 'Examples'
       link: '/features/example'
 - label: 'Contributing'
