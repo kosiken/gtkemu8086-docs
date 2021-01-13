@@ -12,6 +12,8 @@
       link: '/features/syntax-highlighting'
     - label: 'Editor Features'
       link: '/features/editor'
+    - label: 'Editor Plugins'
+      link: '/features/plugins'
     - label: 'Examples'
       link: '/features/example'
 - label: 'Contributing'
