@@ -5,9 +5,9 @@ description: emu8086 emulator feature
 
 ## Highlighting
 
-![highlighting](/highlighting.png)
+![highlighting](highlighting.png)
 
 
 ## Theme
 
-![Theme](/theme.png)
+![Theme](theme.png)
