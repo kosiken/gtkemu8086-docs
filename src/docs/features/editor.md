@@ -7,9 +7,9 @@ text
 
 ## Controls
 
-![controls](/controls.gif)
+![controls](controls.gif)
 
 ## Breakpoints
 
-![Breakpoints](/bps.gif)
+![Breakpoints](bps.gif)
 
