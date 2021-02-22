@@ -8,17 +8,16 @@
   link: '/whats-new'
 - label: 'Features'
   items:
-    - label: 'Syntax Highlighting'
-      link: '/features/syntax-highlighting'
     - label: 'Editor Features'
       link: '/features/editor'
-    - label: 'Editor Plugins'
-      link: '/features/plugins'
+    - label: 'Preferences'
+      link: '/features/preferences'
     - label: 'Examples'
       link: '/features/example'
 - label: 'Contributing'
   items:
-    - label: 'Project Structure'
-      link: '/contributing/project-structure'
+    - label: 'Extending With Plugins'
+      link: '/contributing/plugins'
     - label: 'Supported Operations'
       link: '/contributing/operations'
+   

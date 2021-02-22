@@ -1,0 +1,2 @@
+
+import image from '../../assets/'
