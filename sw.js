@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "f0e45107-02a22ac72de90821f3f0.js"
   },
   {
-    "url": "app-6a81073e85a0a0c07b1a.js"
+    "url": "app-4f379ab96a65d864a1bc.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "e892bcd5ccc18a69b1c1b0f5e0d64af2"
+    "revision": "13783023cfe540151e145bb3452b6358"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-241020a1cf7d0f317bbe.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "d9ad798513991edff99dd2bc4ae17dd4"
+    "revision": "32ae0c96c4bb63e767912c5b509e79d8"
   },
   {
     "url": "polyfill-dfda8d059abd9d0298c4.js"
@@ -156,7 +156,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/gtkemu8086-docs/app-6a81073e85a0a0c07b1a.js`))) {
+  if (!resources || !(await caches.match(`/gtkemu8086-docs/app-4f379ab96a65d864a1bc.js`))) {
     return await fetch(event.request)
   }
 
