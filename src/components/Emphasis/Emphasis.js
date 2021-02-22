@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Prism from 'prism-react-renderer/prism'
 import styles from './Emphasis.module.scss';
 import classNames from 'classnames';
 
