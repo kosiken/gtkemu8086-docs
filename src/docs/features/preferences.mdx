@@ -1,0 +1,59 @@
+---
+title: Breaking Down the settings
+description: Breaking Down the settings
+---
+
+import PicBg from '../../components/PicBg/PicBg.js'
+
+As with most applications 
+
+## Theming
+
+The **emu8086** emulator has a bunch of editor themes for you to choose from
+
+
+<div style={{display:'flex', flexWrap: 'wrap'}}>
+<PicBg image="../light.png" imgalt="light" title="light" />
+
+<PicBg image="../cobalt.png" imgalt="cobalt"  title="cobalt" />
+
+<PicBg image="../dark-plus.png" imgalt="dark-plus"  title="dark-plus" />
+
+<PicBg image="../monokai.png" imgalt="monokai"  title="monokai" />
+
+</div>
+
+You can also add your own personalized theme by clicking add in the
+fonts and colors section of the Preferences window.
+
+Here is a template
+
+```ini
+[Theme]
+keyword=#268BD2
+reg=#B58900
+string=#2AA198
+label=#A6E22E
+num=#d33682
+special=#cb4b16
+comment=#586E75
+highlight=rgba(10,58,70,1)
+background=rgba(3,47,59,1)
+cursor=#ffffff
+selection=#002B36
+selectionbg=#657B83
+text=#93A1A1
+linecolor=#586E75
+[Description]
+value=Color scheme using Solarized dark color palette
+
+```
+You can save this in a file *new-theme.theme* and import it 
+
+**et voila!!**
+
+<div style={{display:'flex', flexWrap: 'wrap'}}>
+<PicBg image="../user-theme.png" imgalt="user-theme"   />
+</div>
+
+

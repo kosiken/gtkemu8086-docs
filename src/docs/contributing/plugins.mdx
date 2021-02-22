@@ -2,3 +2,31 @@
 title: Extending With Plugins
 description: Add new emu8086 emulator features using plugins
 ---
+
+```python
+
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk, Peas,GObject
+
+class HelloWorldlugin(GObject.Object, Peas.Activatable):
+
+    object = GObject.Property(type=GObject.Object)
+
+    def __init__(self):
+        GObject.Object.__init__(self)
+        
+    def do_activate(self):
+        
+        window = self.object.get_property("window")
+        code = window.get_code()        
+        window = self.object.get_property("window")
+        buffer = code.get_buffer()
+        buffer.set_text('db "Hello World"')
+        
+    def do_deactivate(self):
+        print("Goodbye")    
+
+
+
+```

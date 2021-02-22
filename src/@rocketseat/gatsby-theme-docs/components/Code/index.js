@@ -36,7 +36,7 @@ Prism.languages.asm = {
         greedy: true
       },
 
-      'keyword': /\b(?:and|add|call|clc|cld|cmp|dec|do|done|div|imul|in|inc|int|ja|jb|jbe|jc|jcxz|je|jmp|jna|jnb|jz|lea|lodsb|lodsw|loop|loope|loopne|mov|movsb|mul|neg|nop|not|or|out|pop|popf|push|pushf|rep|ret|shr|shl|stc|std|stosb|stosw|org|xchg|xor)\b/
+      'keyword': /\b(?:and|add|call|clc|cld|cmp|dec|db|do|done|div|dw|equ|imul|in|inc|int|ja|jb|jbe|jc|jcxz|je|jmp|jna|jnb|jz|lea|lodsb|lodsw|loop|loope|loopne|mov|movsb|mul|neg|nop|not|or|out|pop|popf|push|pushf|rep|ret|shr|shl|stc|std|stosb|stosw|org|xchg|xor)\b/
 }
 
 

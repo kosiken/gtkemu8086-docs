@@ -3,10 +3,44 @@ title: Editor Features
 description: emu8086 emulator feature
 ---
 
+## The main window
+
+The main window is what you see when you launch the **emu8086** emulator 
+program
+
+### Toolbar
+
+The toolbar contains a subset of the commands that you can use to control 
+the running program, save files and take over the world 😎️. Okay maybe not 
+that last part
+
+![toolbar](../toolbar.png)
+
+### Editor 
+
+The editor contains the text of the asm file that you are working on.
+
+![editor](../editor.png)
+
+### Bottom Bar
+
+The bottom bar displays information about current **emu8086** emulator 
+activity and contains buttons with which you can use to view even more
+information.
+
+![bottom bar](../bb.png)
+
 ## Core Features
 
 These are features offered out of the box by the emu8086 emulator but some
 [features](#extended-features) are dependent on installed plugins. 
+
+### Breakpoints
+
+Well it would not be useful if there wasn't any way to add breakpoints now
+would it.
+
+![breakpoint](../bpt.png)
 
 ### Highlighting
 
@@ -32,6 +66,16 @@ So things like
 call regDump ; are not needed
 
 ```
+
+### Memory View
+
+The **emu8086** emulator also has a window with which you 
+can view the emulated memory that a running program produces
+
+![mem-view](../mem-view.png)
+
+To open the memory view you can click on the memory view button 
+at the bottom bar of the main window
 
 ## Extended Features
 
