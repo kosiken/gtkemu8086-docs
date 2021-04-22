@@ -3,6 +3,24 @@ title: Extending With Plugins
 description: Add new emu8086 emulator features using plugins
 ---
 
+The *gtkemu8086* emulator uses the [Libpeas](https://wiki.gnome.org/Projects/Libpeas) library to allow developers to provide extended features with plugins. 
+there are already a few that are bundled with the software. 
+
+## Adding a plugin
+
+Currently the only supported plugin languages are Python and C, there is no support for Lua. The PluginsBox object is passed to the plugin in development.
+You can access the main application window by accessing the window property on the PluginsBox object. Here are some of the public methods on the MainWindow 
+object
+
+- win.get_revealer() <br/>
+    This returns the [Revealer](https://developer.gnome.org/gtk3/stable/GtkRevealer.html) widget that is seen on the main window, i.e the dock where registers are displayed 
+    when a program is running
+
+- win.get_bottom_bar() <br/>
+    This returns the bottombar widget which is of the type [GtkBox](https://developer.gnome.org/gtk3/stable/GtkBox.html)
+
+You can go through 
+
 ```python
 
 import gi
